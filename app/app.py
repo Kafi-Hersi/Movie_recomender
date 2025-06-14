@@ -4,7 +4,7 @@ from main import main as mn
 from main import recomend as rd
 
 st.title('Hello👋')
-st.title("Welcome to our Automated movie 🎥 recomender!")
+st.title("Welcome to Automated movie 🎥 recomender!")
 country_map = {
     "Spain": "ES",
     "Mexico": "MX",
