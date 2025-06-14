@@ -21,7 +21,7 @@ This is an automated movie recommendation web app built with Python and Streamli
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/<your-username>/Movie_recomender.git
+    git clone https://github.com/<Kafi-Hersi>/Movie_recomender.git
     cd Movie_recomender
     ```
 
