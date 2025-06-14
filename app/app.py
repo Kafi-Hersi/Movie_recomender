@@ -5,9 +5,18 @@ from main import recomend as rd
 
 st.title('Hello👋')
 st.title("Welcome to our Automated movie 🎥 recomender!")
-country = ['ES','MX','AR','RU','co','us','gb']
-country_of_choice = st.selectbox('Country: ',country, 0)
-
+country_map = {
+    "Spain": "ES",
+    "Mexico": "MX",
+    "Argentina": "AR",
+    "Russia": "RU",
+    "Colombia": "co",
+    "United States": "us",
+    "United Kingdom": "gb"
+}
+country_names = list(country_map.keys())
+country_of_choice_name = st.selectbox('Country: ',country_names, 0)
+country_of_choice = country_map[country_of_choice_name]
 if __name__ == '__main__':
     movie_ids, movie_titles = mn(country_of_choice)
     recomended_movies = []
