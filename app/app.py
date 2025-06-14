@@ -20,7 +20,7 @@ country_of_choice = country_map[country_of_choice_name]
 if __name__ == '__main__':
     movie_ids, movie_titles = mn(country_of_choice)
     recomended_movies = []
-    user_in = st.slider('please enter the number of movies you want to be recomended:',1, len(movie_ids),1)
+    user_in = st.slider('please choose the number of movies you want to be recomended:',1, len(movie_ids),1)
 
     with st.spinner("Fetching recommendations..."):
         for i in range(user_in):
