@@ -34,7 +34,7 @@ if __name__ == '__main__':
                 st.image(img)
             with col2:
                 st.markdown(f"""
-                <div style="background-color:#353e4d;padding:10px 10px 8px 8px;border-radius:12px;box-shadow:0 2px 8px #0001;">
+                <div style="background-color:#1a1a1a;padding:10px 10px 8px 8px;border-radius:12px;box-shadow:0 2px 8px #0001;">
                 <h3 style="color:#e50914;margin-bottom:0.2em;">🎬 <a href="{movie_url}" target="_blank" style="color:#e50914;text-decoration:none;"><b>{movie_titles[recomends]}</b></a></h3>
                 <p> 📅 {Released_date}</p>
                 <p>🎭 {Genre}</p>
